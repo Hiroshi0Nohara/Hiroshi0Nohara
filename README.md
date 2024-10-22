@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/ebqkmSn.gif" alt="Glitchy futuristic interface" width="600px" />
+  <img src="https://i.gifer.com/NZxV.gif" alt="Glitchy futuristic interface" width="600px" />
 </p>
 
 <h1 align="center" style="font-family: 'OCR A Std', monospace; font-size: 3rem; color: #0AFF00; letter-spacing: 0.1em;">
