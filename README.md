@@ -1,45 +1,46 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=30&duration=4500&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&height=60&lines=---++SYSTEM+ENGAGED++---;CODE+INTERPRETATION...INITIALIZED...;NO+HUMAN+DETECTED;ERROR+404%3A+LIMITATIONS+NOT+FOUND;" alt="Futuristic Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=0DFF00&background=000000&width=900&height=60&lines=SYSTEM+BOOT+SEQUENCE+INITIALIZED;ANALYSIS...;ARTIFICIAL+INTELLIGENCE+ACTIVE;ENCRYPTED+PROTOCOL+ENGAGED" alt="Typing SVG">
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/123456789/135765443-56d0b600-61f6-11eb-878b-1a6e5f5695f1.gif" alt="futuristic circuit animation" width="600px">
+  <img src="https://media.giphy.com/media/1Y5ZJtnQ7aU9sbEhWo/giphy.gif" alt="Abstract Tech Animation" width="600px">
 </p>
 
 <h1 align="center" style="font-size: 3rem; letter-spacing: 0.1em;">  - </h1>
 
-<p align="center" style="font-style: italic; color: #A9A9A9;">
-  <em>Interfaces evolve faster than human comprehension.<br> Here, creativity merges with algorithmic perfection.</em>
+<p align="center" style="font-style: italic; color: #00FF00;">
+  <em>Beyond human capability, the design is the art of an advanced mind.<br> Experience a fusion of creativity and unparalleled technical skill.</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Evolving%20System-FF4500?style=for-the-badge" alt="Evolving System">
-  <img src="https://img.shields.io/badge/-Decrypted%20Reality-6A5ACD?style=for-the-badge" alt="Decrypted Reality">
-  <img src="https://img.shields.io/badge/-Logic%20Unfolding-008B8B?style=for-the-badge" alt="Logic Unfolding">
+  <img src="https://img.shields.io/badge/CODE-ARTIFACT-00FF00?style=for-the-badge" alt="Code Artifact">
+  <img src="https://img.shields.io/badge/CREATION-PHASE-00FF00?style=for-the-badge" alt="Creation Phase">
+  <img src="https://img.shields.io/badge/EXECUTION-FLAWLESS-00FF00?style=for-the-badge" alt="Execution Flawless">
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/123456789/135768032-12d45600-b52c-11eb-9aa1-7f3b9fce93f8.gif" alt="fluid-wave-animation" width="500px">
-</p>
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=highcontrast&count_private=true" alt="Github stats">
+  <img src="https://media.giphy.com/media/Zctj8em58EJzwJXQc8/giphy.gif" alt="Fluid Animation" width="500px">
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hiroshi0Nohara&color=orange&style=plastic" alt="profile views">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=chartreuse-dark&count_private=true" alt="Github stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiroshi0Nohara&layout=compact&theme=chartreuse-dark" alt="Top Languages">
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Hiroshi0Nohara&color=brightgreen&style=plastic" alt="profile views">
   <img src="https://img.shields.io/github/last-commit/Hiroshi0Nohara/xfce-4-theme?style=plastic" alt="Last commit">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation">
 </p>
 
-<h2 align="center" style="color:#8A2BE2;">Motion in the quiet space between</h2>
-<p align="center" style="color:#A9A9A9; font-size:1.2rem;">
-  Systems evolving<br>Each node influencing the next.<br>Creating in a way that feels effortless yet infinite.
+<h2 align="center" style="color:#00FF00;">A Symphony in Code</h2>
+<p align="center" style="color:#B6FF00; font-size:1.2rem;">
+  Systems converging in seamless harmony.<br>Creativity unleashed in every node.<br>A masterpiece of logic and design.
 </p>
