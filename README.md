@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/BZ9jvKR.gif" alt="animated gradient wave" width="700px" />
+  <img src="https://aexpr.wordpress.com/wp-content/uploads/2019/02/timeline_sines.gif" alt="animated gradient wave" width="700px" />
 </p>
 
 ### SYSTEM STATUS:
