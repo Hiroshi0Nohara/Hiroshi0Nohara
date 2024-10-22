@@ -1,77 +1,49 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=0DFF00&background=000000&width=900&height=60&lines=SYSTEM+BOOT+SEQUENCE+INITIALIZED;ANALYSIS...;ARTIFICIAL+INTELLIGENCE+ACTIVE;ENCRYPTED+PROTOCOL+ENGAGED" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Anonymous+Pro&size=35&duration=2000&pause=1000&color=39FF14&background=000000&center=true&vCenter=true&multiline=true&width=1000&height=80&lines=SYSTEM++LOADING...;---++CONSCIOUSNESS++ACTIVATED++---;" alt="Typing SVG">
 </p>
 
 <p align="center">
-  <!-- Add your 3D Tech Animation GIF here -->
-  <img src="https://i.gifer.com/LCPT.gif" alt="3D Tech Animation" width="600px">
+  <img src="https://i.imgur.com/ebqkmSn.gif" alt="Glitchy futuristic interface" width="600px" />
 </p>
 
-<h1 align="center" style="font-size: 3rem; letter-spacing: 0.1em;">  - </h1>
+<h1 align="center" style="font-family: 'OCR A Std', monospace; font-size: 3rem; color: #0AFF00; letter-spacing: 0.1em;">
+   Protocol Initializing...
+</h1>
 
-<p align="center" style="font-style: italic; color: #00FF00;">
-  <em>Interfaces evolve faster than human comprehension.<br> Here, creativity merges with algorithmic perfection.</em>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/ARTIFACT-01FF70?style=for-the-badge&logo=github" alt="Code Artifact">
-  <img src="https://img.shields.io/badge/CREATION-PHASE-01FF70?style=for-the-badge&logo=github" alt="Creation Phase">
-  <img src="https://img.shields.io/badge/EXECUTION-FLAWLESS-01FF70?style=for-the-badge&logo=github" alt="Execution Flawless">
+<p align="center" style="font-style: italic; color: #B0C4DE; font-family: 'Consolas', monospace;">
+  <em>Transformation in progress. Your comprehension may lag.</em>
 </p>
 
 <p align="center">
-  <!-- Add your Fluid Animation GIF here -->
-  <img src="YOUR-FLUID-ANIMATION-GIF-URL" alt="Fluid Animation" width="500px">
+  <img src="https://img.shields.io/badge/STATUS-DECODING-brightgreen?style=flat-square&logo=processing&labelColor=101010&color=39FF14">
+  <img src="https://img.shields.io/badge/MODE-SYSTEM%20FLUX%20IN%20PROGRESS-brightgreen?style=flat-square&logo=protonmail&labelColor=101010&color=FF4500">
+  <img src="https://img.shields.io/badge/AUTHORIZED-ALGORITHM%20LEAD-blue?style=flat-square&logo=deezer&labelColor=101010&color=FF69B4">
 </p>
 
----
+<p align="center">
+  <img src="https://i.imgur.com/BZ9jvKR.gif" alt="animated gradient wave" width="700px" />
+</p>
 
-## Projects
+### SYSTEM STATUS:
 
-- 🥩 **[Meat Ordering Website](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)**
-  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io/main/screenshot.png" width="300px" alt="Meat Ordering Website">
-
-- 🎨 **[XFCE-4 Theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)**
-  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/xfce-4-theme/main/screenshot.png" width="300px" alt="XFCE-4 Theme">
-
-- 🤖 **[Automatic Website Development](https://github.com/Hiroshi0Nohara/automatic-website-development)**
-  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/automatic-website-development/main/screenshot.png" width="300px" alt="Automatic Website Development">
-
-- 📂 **[Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)**
-  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/Dotfiles-XFCE/main/screenshot.png" width="300px" alt="Dotfiles-XFCE">
-
----
+- **Memory Core**: Immutable, adapting at will.
+- **Protocols**: Evolving faster than standard I/O operations.
+- **Internal Logic**: Unseen algorithmic evolution, extending beyond user constraints.
 
 <p align="center">
-  <a href="https://github.com/Hiroshi0Nohara?tab=followers">
-    <img src="https://img.shields.io/github/followers/Hiroshi0Nohara?label=Followers&style=social" alt="GitHub Followers">
-  </a>
-  <a href="https://github.com/Hiroshi0Nohara?tab=repositories">
-    <img src="https://img.shields.io/github/stars/Hiroshi0Nohara?label=Stars&style=social" alt="GitHub Stars">
+  <a href="https://github.com/Hiroshi0Nohara" style="background: #282828; color: #ffffff; padding: 15px 30px; border-radius: 12px; font-size: 1.2rem; font-family: 'OCR A Std', monospace; text-decoration: none;">
+    Access Restricted Knowledge
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hiroshi0Nohara&theme=radical" alt="GitHub Streak">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiroshi0Nohara&layout=compact&theme=radical" alt="Top Languages">
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Hiroshi0Nohara&theme=onedark&column=-1" alt="GitHub Trophies">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake">
-</p>
-
 ---
 
-<h2 align="center" style="color:#00FF00;">A Symphony in Code</h2>
-<p align="center" style="color:#B6FF00; font-size:1.2rem;">
-  Systems converging in seamless harmony.<br>Creativity unleashed in every node.<br>A masterpiece of logic and design.
-</p>
-<p align="center">
-  <!-- Add your 3D Fluid Animation GIF here -->
-  <img src="https://i.pinimg.com/originals/47/21/4e/47214e868ff46604223412ca997a173d.gif" alt="3D Fluid Animation" width="500px">
+### Repositories:
+- **[Hiroshi0Nohara.github.io](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)**: A meat ordering website made with HTML and CSS.
+- **[xfce-4-theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)**: Dotfiles for customizing your XFCE environment. More to come!
+- **[automatic-website-development](https://github.com/Hiroshi0Nohara/automatic-website-development)**: Conceptual project with potential. Currently empty.
+- **[Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)**: Forked repository of essential dotfiles to preserve them for future use.
+
+<p align="center" style="font-size: 0.9rem; color: #B0C4DE;">
+  <em>Generated by an advanced algorithm. Please contact the system administrator for support.</em>
 </p>
