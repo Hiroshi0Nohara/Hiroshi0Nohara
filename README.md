@@ -4,8 +4,8 @@
 
 <p align="center">
   <!-- Add your 3D Tech Animation GIF here -->
-  <img src="https://i.gifer.com/LCPT.gif" alt="3D Tech Animation" width="600px">
-</p>
+  <iframe src="https://gifer.com/embed/LCPT" width=480 height=360.000 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p>
+</p> 
 
 <h1 align="center" style="font-size: 3rem; letter-spacing: 0.1em;">  - </h1>
 
