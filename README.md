@@ -3,8 +3,7 @@
 </p>
 
 <p align="center">
-  <!-- Add your 3D Tech Animation GIF here -->
-  <img src="https://i.gifer.com/LCPT.gif" alt="3D Tech Animation" width="600px">  
+    <img src="https://i.gifer.com/LCPT.gif" alt="3D Tech Animation" width="600px">  
 </p> 
 
 <h1 align="center" style="font-size: 3rem; letter-spacing: 0.1em;">  - </h1>
