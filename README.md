@@ -5,16 +5,39 @@
   <img src="https://media.giphy.com/media/1kM0BIpSH7oIzGCIAT/giphy.gif" alt="3D Tech Banner" width="600px">
 </p>
 <p align="center">
+  <a href="https://github.com/Hiroshi0Nohara?tab=followers">
+    <img src="https://img.shields.io/github/followers/Hiroshi0Nohara?label=Followers&style=social" alt="GitHub Followers">
+  </a>
+  <a href="https://github.com/Hiroshi0Nohara?tab=repositories">
+    <img src="https://img.shields.io/github/stars/Hiroshi0Nohara?label=Stars&style=social" alt="GitHub Stars">
+  </a>
+</p>
+
+
+<p align="center">
   <img src="https://img.shields.io/badge/ARTIFACT-01FF70?style=for-the-badge&logo=github" alt="Code Artifact">
   <img src="https://img.shields.io/badge/CREATION-PHASE-01FF70?style=for-the-badge&logo=github" alt="Creation Phase">
   <img src="https://img.shields.io/badge/EXECUTION-FLAWLESS-01FF70?style=for-the-badge&logo=github" alt="Execution Flawless">
 </p>
+## Technologies
+
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
+
 ## Projects
 
-- 🥩 **[Meat Ordering Website](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)**: Sleek, minimalistic design using pure HTML and CSS.
-- 🎨 **[XFCE-4 Theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)**: Custom theme configurations.
-- 🤖 **[Automatic Website Development](https://github.com/Hiroshi0Nohara/automatic-website-development)**: Automating website creation (WIP).
-- 📂 **[Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)**: Forked dotfiles for XFCE.
+- 🥩 **[Meat Ordering Website](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)**
+  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io/main/screenshot.png" width="300px" alt="Meat Ordering Website">
+
+- 🎨 **[XFCE-4 Theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)**
+  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/xfce-4-theme/main/screenshot.png" width="300px" alt="XFCE-4 Theme">
+
+- 🤖 **[Automatic Website Development](https://github.com/Hiroshi0Nohara/automatic-website-development)**
+  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/automatic-website-development/main/screenshot.png" width="300px" alt="Automatic Website Development">
+
+- 📂 **[Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)**
+  <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/Dotfiles-XFCE/main/screenshot.png" width="300px" alt="Dotfiles-XFCE">
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hiroshi0Nohara&theme=radical" alt="GitHub Streak">
