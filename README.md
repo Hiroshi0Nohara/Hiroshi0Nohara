@@ -4,9 +4,10 @@
 </p>
 
 <!-- Title with subtle glow effect -->
-<h1 align="center" style="color: #00FF00; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00FF00;">
+<h1 align="center" style="background: linear-gradient(90deg, #00FF00, #39FF14); -webkit-background-clip: text; color: transparent; font-weight: bold;">
   SYSTEM: ONLINE
 </h1>
+
 
 <p align="center" style="font-family: 'Roboto Mono', monospace; font-size: 1.2rem; color: #A9A9A9;">
   <em>Engaging human senses... Optimizing user interaction...</em>
@@ -50,8 +51,9 @@ An elegant theme for XFCE that brings high efficiency and minimalistic beauty to
 ### 🎨 **System Monitoring**
 #### 💻 Live System Stats
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/112401888/155155693-f34b4f59-6591-4e6e-9bc2-cda92aeb3d3a.gif" alt="System Monitoring" width="80%" />
+  <img src="https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif" alt="Live System Monitoring" width="80%" />
 </p>
+
 
 #### 🌌 Progress and Future Developments
 - **Current Focus**: Streamlining autonomous front-end development processes.
@@ -61,22 +63,22 @@ An elegant theme for XFCE that brings high efficiency and minimalistic beauty to
 
 ### 🎨 Futuristic Animations
 #### 🔄 Dynamic Progress Bar
-<div align="center">
-  <h4>Project Completion</h4>
-  <img src="https://progress-bar.dev/80/" alt="Progress Bar" />
-</div>
+<p align="center">
+  <img src="https://progress-bar.dev/80/?width=500&color=39FF14" alt="Progress Bar" />
+</p>
+
 
 #### **Advanced Code Visuals**
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/112401888/155156077-b9f29370-1745-4668-9fbc-ff50b2f8f6ae.gif" alt="Animated Code" width="70%" />
+  <img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/code.gif" alt="Animated Code" width="70%" />
 </p>
+
 
 ---
 
 ### 🌌 **User Impact Visualization**
-<!-- Add an animated activity graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hiroshi0Nohara&theme=react-dark" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hiroshi0Nohara&theme=react-dark&hide_border=true&bg_color=0D1117&color=39FF14" alt="GitHub Activity Graph" />
 </p>
 
 ---
