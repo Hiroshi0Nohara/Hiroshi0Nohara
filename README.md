@@ -15,7 +15,7 @@ Welcome to my digital domain! I am an aspiring developer with a passion for crea
 ### 📫 Connect with Me
 - **[Twitter](https://twitter.com/yourusername)** 
 - **[LinkedIn](https://linkedin.com/in/yourusername)** 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [asmodeus72legions@gmail.com](mailto:asmodeus72legions@gmail.com)
 
 ---
 
