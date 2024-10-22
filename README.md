@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=0DFF00&background=000000&width=900&height=60&lines=SYSTEM+BOOT+SEQUENCE+INITIALIZED;ANALYSIS...;ARTIFICIAL+INTELLIGENCE+ACTIVE;ENCRYPTED+PROTOCOL+ENGAGED" alt="Futuristic Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=0DFF00&background=000000&width=900&height=60&lines=SYSTEM+BOOT+SEQUENCE+INITIALIZED;ANALYSIS...;ARTIFICIAL+INTELLIGENCE+ACTIVE;ENCRYPTED+PROTOCOL+ENGAGED" alt="Typing SVG">
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/1Y5ZJtnQ7aU9sbEhWo/giphy.gif" alt="Abstract Tech Animation" width="600px">
+  <img src="https://media.giphy.com/media/l41YtZOb9EUABnuqA/giphy.gif" alt="Abstract Tech Animation" width="600px">
 </p>
 
 <h1 align="center" style="font-size: 3rem; letter-spacing: 0.1em;">  - </h1>
@@ -13,13 +13,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Evolving%20System-FF4500?style=for-the-badge" alt="Evolving System">
-  <img src="https://img.shields.io/badge/-Decrypted%20Reality-6A5ACD?style=for-the-badge" alt="Decrypted Reality">
-  <img src="https://img.shields.io/badge/-Logic%20Unfolding-008B8B?style=for-the-badge" alt="Logic Unfolding">
+  <img src="https://img.shields.io/badge/CODE-ARTIFACT-00FF00?style=for-the-badge" alt="Code Artifact">
+  <img src="https://img.shields.io/badge/CREATION-PHASE-00FF00?style=for-the-badge" alt="Creation Phase">
+  <img src="https://img.shields.io/badge/EXECUTION-FLAWLESS-00FF00?style=for-the-badge" alt="Execution Flawless">
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Zctj8em58EJzwJXQc8/giphy.gif" alt="Fluid Animation" width="500px">
+  <img src="https://media.giphy.com/media/3o7TKOxklAIZISUElq/giphy.gif" alt="Fluid Animation" width="500px">
 </p>
 
 ---
