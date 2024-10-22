@@ -35,8 +35,6 @@
   <img src="https://img.shields.io/github/last-commit/Hiroshi0Nohara/xfce-4-theme?style=plastic" alt="Last commit">
 </p>
 
----
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
