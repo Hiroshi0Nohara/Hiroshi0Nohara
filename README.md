@@ -5,13 +5,17 @@
 <h1 align="center" style="color: #39FF14; text-shadow: 2px 2px #101010;">SYSTEM INITIALIZING...</h1>
 <p align="center" style="font-size: 1.2rem; color: #B0C4DE;">Loading advanced algorithms...</p>
 
+---
+
 ### 🤖 About Me
 I am an aspiring developer with a passion for creating innovative web applications and exploring the realms of user interface design. Currently diving deep into the world of Linux customization and frontend development, I aim to build futuristic and user-centric digital experiences.
 
 ### 📫 Connect with Me
-- [Twitter](https://twitter.com/yourusername)
-- [LinkedIn](https://linkedin.com/in/yourusername)
+- [Twitter](https://twitter.com/yourusername) 
+- [LinkedIn](https://linkedin.com/in/yourusername) 
 - Email: [your.email@example.com](mailto:your.email@example.com)
+
+---
 
 ### 🛠️ Skills
 - **Languages**: HTML, CSS, JavaScript
@@ -20,26 +24,34 @@ I am an aspiring developer with a passion for creating innovative web applicatio
 ---
 
 ### 📁 Repositories
+#### 🚀 [Hiroshi0Nohara.github.io](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)
+A meat ordering website created with HTML and CSS.
+![Meat Ordering Website](https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/meat-ordering-screenshot.png)
 
-- **[Hiroshi0Nohara.github.io](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)**: A meat ordering website created with HTML and CSS.
-  ![Meat Ordering Website](https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/meat-ordering-screenshot.png)
+#### 🔧 [xfce-4-theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)
+Sharing custom dotfiles for XFCE. More enhancements coming soon!
 
-- **[xfce-4-theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)**: Sharing custom dotfiles for XFCE. More enhancements coming soon!
-- **[automatic-website-development](https://github.com/Hiroshi0Nohara/automatic-website-development)**: A conceptual project exploring automated web development. Currently evolving!
-- **[Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)**: Safeguarding valuable dotfiles for future use.
+#### 💻 [automatic-website-development](https://github.com/Hiroshi0Nohara/automatic-website-development)
+A conceptual project exploring automated web development. Currently evolving!
+
+#### 🔒 [Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)
+Safeguarding valuable dotfiles for future use.
 
 ---
 
 ### 📊 GitHub Stats
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=radical" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiroshi0Nohara&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
+---
+
+### 🎨 Badges & Achievements
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language.svg?username=Hiroshi0Nohara&theme=radical" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit.svg?username=Hiroshi0Nohara&theme=radical" alt="Most Commit" />
+  <img src="https://img.shields.io/badge/HTML-Expert-orange" />
+  <img src="https://img.shields.io/badge/CSS-Proficient-blue" />
+  <img src="https://img.shields.io/badge/JavaScript-Beginner-yellow" />
 </p>
 
 [![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Hiroshi0Nohara&theme=react-dark)](https://github.com/Hiroshi0Nohara)
