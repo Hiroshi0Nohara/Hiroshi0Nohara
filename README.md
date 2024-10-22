@@ -3,8 +3,9 @@
 </p>
 
 <p align="center">
-    <img src="https://i.gifer.com/LCPT.gif" alt="3D Tech Animation" width="600px">  
-</p> 
+  <!-- Add your 3D Tech Animation GIF here -->
+  <img src="YOUR-3D-TECH-ANIMATION-GIF-URL" alt="3D Tech Animation" width="600px">
+</p>
 
 <h1 align="center" style="font-size: 3rem; letter-spacing: 0.1em;">  - </h1>
 
@@ -20,7 +21,7 @@
 
 <p align="center">
   <!-- Add your Fluid Animation GIF here -->
-  <img src="https://media.giphy.com/media/fx4zxFLVDAluXnk4qH/giphy.gif?cid=790b761155rx3hadqi7ckr6dk9kr4eflghcwoxw202h8xthx&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Fluid Animation" width="500px">
+  <img src="YOUR-FLUID-ANIMATION-GIF-URL" alt="Fluid Animation" width="500px">
 </p>
 
 ---
@@ -56,15 +57,12 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiroshi0Nohara&layout=compact&theme=radical" alt="Top Languages">
 </p>
 
----
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hiroshi0Nohara&color=green&style=plastic" alt="Profile views">
-  <img src="https://img.shields.io/github/last-commit/Hiroshi0Nohara/xfce-4-theme?style=plastic" alt="Last commit">
+  <img src="https://github-profile-trophy.vercel.app/?username=Hiroshi0Nohara&theme=onedark&column=-1" alt="GitHub Trophies">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Contribution Snake">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake">
 </p>
 
 ---
