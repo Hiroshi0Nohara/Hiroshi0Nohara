@@ -2,18 +2,18 @@
   <img src="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/header.gif" alt="Futuristic Header" width="100%" />
 </p>
 
-<h1 align="center" style="font-family: 'OCR A Std', monospace; font-size: 3rem; color: #39FF14; letter-spacing: 0.1em;">
+<h1 align="center" style="font-family: 'Courier New', monospace; color: #39FF14; text-shadow: 2px 2px #101010;">
    SYSTEM INITIALIZING...
 </h1>
 
-<p align="center" style="font-style: italic; color: #B0C4DE; font-family: 'Consolas', monospace;">
+<p align="center" style="font-size: 1.2rem; color: #B0C4DE; font-family: 'Consolas', monospace;">
   <em>Loading advanced algorithms...</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-brightgreen?style=flat-square&logo=processing&labelColor=101010&color=39FF14">
-  <img src="https://img.shields.io/badge/MODE-AUTOMATED-orange?style=flat-square&logo=protonmail&labelColor=101010&color=FF4500">
-  <img src="https://img.shields.io/badge/SECURITY-ENCRYPTED-blue?style=flat-square&logo=deezer&labelColor=101010&color=FF69B4">
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-brightgreen?style=flat-square&logo=processing&labelColor=101010&color=39FF14" alt="Status">
+  <img src="https://img.shields.io/badge/MODE-AUTOMATED-orange?style=flat-square&logo=protonmail&labelColor=101010&color=FF4500" alt="Mode">
+  <img src="https://img.shields.io/badge/SECURITY-ENCRYPTED-blue?style=flat-square&logo=deezer&labelColor=101010&color=FF69B4" alt="Security">
 </p>
 
 ---
@@ -25,7 +25,7 @@
 - **Internal Logic**: Complex, yet comprehensible.
 
 <p align="center">
-  <a href="https://github.com/Hiroshi0Nohara" style="background: #282828; color: #ffffff; padding: 15px 30px; border-radius: 12px; font-size: 1.2rem; font-family: 'OCR A Std', monospace; text-decoration: none;">
+  <a href="https://github.com/Hiroshi0Nohara" style="background: #282828; color: #ffffff; padding: 15px 30px; border-radius: 12px; font-size: 1.2rem; text-decoration: none;">
     Access Advanced Protocols
   </a>
 </p>
@@ -34,18 +34,18 @@
 
 ### 📁 Repositories
 
-- **[Hiroshi0Nohara.github.io](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)**: A meat ordering website made with HTML and CSS.
-- **[xfce-4-theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)**: Dotfiles for customizing your XFCE environment. More to come!
-- **[automatic-website-development](https://github.com/Hiroshi0Nohara/automatic-website-development)**: Conceptual project with potential. Currently empty.
-- **[Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)**: Forked repository of essential dotfiles.
+- **[Hiroshi0Nohara.github.io](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara.github.io)**: A meat ordering website created with HTML and CSS.
+- **[xfce-4-theme](https://github.com/Hiroshi0Nohara/xfce-4-theme)**: Sharing custom dotfiles for XFCE environment. More enhancements coming soon!
+- **[automatic-website-development](https://github.com/Hiroshi0Nohara/automatic-website-development)**: A conceptual project exploring automated web development. Currently empty but evolving!
+- **[Dotfiles-XFCE](https://github.com/Hiroshi0Nohara/Dotfiles-XFCE)**: Forked repository to safeguard valuable dotfiles for future use.
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiroshi0Nohara&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=dark" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiroshi0Nohara&layout=compact&theme=dark" alt="Top Languages" />
 </p>
 
 <p align="center">
