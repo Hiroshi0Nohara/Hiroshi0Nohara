@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7TKOxklAIZISUElq/giphy.gif" alt="Fluid Animation" width="500px">
+  <img src="https://user-images.githubusercontent.com/81960365/120112008-4fa52500-c17e-11eb-9f2f-bc807f4c2d69.gif" alt="Fluid Animation" width="500px">
 </p>
 
 ---
