@@ -1,72 +1,102 @@
-<!-- HEADER SECTION -->
-<p align="center">
-  <img src="https://via.placeholder.com/1000x200.png?text=YOUR+FUTURISTIC+LOGO" alt="Custom Futuristic Logo" width="800"/>
-</p>
+<!-- DYNAMIC HEADER SECTION -->
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=40&pause=1000&color=6C3483&center=true&vCenter=true&random=true&width=600&height=70&lines=Quantum+Development+Engineer;Algorithmic+Design+Architect;Neural+Systems+Designer;Computational+Artist)](https://git.io/typing-svg)
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=00FF00&width=435&lines=Welcome+to+My+Futuristic+GitHub!;A+Masterpiece+of+Art+and+Code" alt="Typing SVG" />
-</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/output/github-snake.svg" />
+</picture>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/UI%2FUX%20Ninja-%23FFFFFF.svg?style=for-the-badge&logo=css3&logoColor=blue" alt="UI/UX Badge"/>
-  <img src="https://img.shields.io/badge/Futuristic%20Developer-%23FFFFFF.svg?style=for-the-badge&logo=html5&logoColor=orange" alt="Futuristic Developer Badge"/>
-</p>
+</div>
 
-<!-- ANIMATED SVG EFFECT -->
-<p align="center">
-  <img src="https://svgshare.com/i/Phs.svg" width="600" alt="Animated SVG Wave"/>
-</p>
+<!-- METRICS SECTION -->
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hiroshi0Nohara&theme=radical" />
+</div>
 
-<h2 align="center">🌌 Creative. Futuristic. One-of-a-Kind. 🌌</h2>
-<!-- SKILLS & TECHNOLOGIES SECTION -->
-<h2 align="center">🚀 My Top Skills & Technologies</h2>
+<!-- ADVANCED STATISTICS DASHBOARD -->
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=C9D1D9&icon_color=C9D1D9&text_color=8B949E&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://streak-stats.demolab.com?user=Hiroshi0Nohara&theme=radical&hide_border=true&background=0D1117&stroke=C9D1D9&ring=C9D1D9&fire=FF6B6B&currStreakNum=C9D1D9&currStreakLabel=C9D1D9&dates=8B949E" />
+    </td>
+  </tr>
+</table>
 
-<!-- ICONS & TECH STACK -->
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white" alt="HTML5 Badge"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white" alt="CSS3 Badge"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" alt="JavaScript Badge"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624.svg?style=for-the-badge&logo=Linux&logoColor=black" alt="Linux Badge"/>
-  <img src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white" alt="Git Badge"/>
-</p>
+<!-- ADVANCED SKILLS MATRIX -->
+<div align="center">
+  <h3>Technology Matrix</h3>
+  
+  ```mermaid
+  mindmap
+    root((Core))
+      Development
+        Frontend
+          React
+          Vue
+          Angular
+        Backend
+          Node.js
+          Python
+          Go
+      Architecture
+        System Design
+        Cloud Native
+        Microservices
+      Innovation
+        ML/AI
+        Blockchain
+        IoT
+  ```
 
-<!-- ADVANCED SKILL STATS (SVG PROGRESS BARS) -->
-<h3 align="center">Advanced Proficiency Levels</h3>
-<p align="center">
-  <img src="https://progress-bar.dev/95?title=HTML5&width=500&color=FF5733" alt="HTML5 Proficiency" />
-  <img src="https://progress-bar.dev/90?title=CSS3&width=500&color=1572B6" alt="CSS3 Proficiency" />
-  <img src="https://progress-bar.dev/85?title=JavaScript&width=500&color=F0DB4F" alt="JavaScript Proficiency" />
-  <img src="https://progress-bar.dev/90?title=Linux&width=500&color=FCC624" alt="Linux Proficiency" />
-  <img src="https://progress-bar.dev/80?title=Git&width=500&color=F05032" alt="Git Proficiency" />
-</p>
+  <!-- DYNAMIC CONTRIBUTION CALENDAR -->
+  ![](./profile-3d-contrib/profile-night-rainbow.svg)
+</div>
 
-<!-- STYLIZED 3D GRAPHIC -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/your-image-link" alt="Futuristic Graphic" width="700" />
-</p>
+<!-- ADVANCED METRICS GRID -->
+<div align="center">
+  
+  | Metric Type | Status |
+  |------------|---------|
+  | Code Quality | [![CodeFactor](https://www.codefactor.io/repository/github/Hiroshi0Nohara/Hiroshi0Nohara/badge?style=flat-square)](https://www.codefactor.io/repository/github/Hiroshi0Nohara/Hiroshi0Nohara) |
+  | Security Rating | [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hiroshi0Nohara_Hiroshi0Nohara&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hiroshi0Nohara_Hiroshi0Nohara) |
+  | Lines of Code | ![Lines of Code](https://img.shields.io/tokei/lines/github/Hiroshi0Nohara/Hiroshi0Nohara?style=flat-square) |
+  | Profile Views | ![Profile Views](https://komarev.com/ghpvc/?username=Hiroshi0Nohara&color=blueviolet&style=flat-square) |
+</div>
 
-<h2 align="center">🔮 Masters of Design, Creators of Code 🔮</h2>
-<!-- GITHUB ACTIVITY & STATS -->
-<h2 align="center">📊 GitHub Activity & Stats</h2>
+<!-- DYNAMIC PROJECT SHOWCASE -->
+<div align="center">
+  <h3>Featured Projects</h3>
+  
+  <a href="https://github.com/Hiroshi0Nohara/project1">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hiroshi0Nohara&repo=project1&theme=radical&hide_border=true&bg_color=0D1117" />
+  </a>
+  <a href="https://github.com/Hiroshi0Nohara/project2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hiroshi0Nohara&repo=project2&theme=radical&hide_border=true&bg_color=0D1117" />
+  </a>
+</div>
 
-<!-- GITHUB ACTIVITY GRAPH -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hiroshi0Nohara&theme=react-dark&bg_color=20232a&hide_border=true&line=61dafb&color=61dafb&point=FFFFFF" alt="GitHub Activity Graph" />
-</p>
+<!-- WORKFLOW STATUS -->
+<div align="center">
+  <h3>System Status</h3>
+  
+  ![Workflow Status](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara/actions/workflows/profile-3d.yml/badge.svg)
+  ![Update Status](https://github.com/Hiroshi0Nohara/Hiroshi0Nohara/actions/workflows/metrics.yml/badge.svg)
+</div>
 
-<!-- GITHUB STATS & STREAK -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hiroshi0Nohara&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0" alt="GitHub Streak Stats" />
-</p>
+<!-- ADVANCED TECHNOLOGY STACK -->
+<div align="center">
+  <h3>Technology Constellation</h3>
+  
+  ![Tech Stack](https://skillicons.dev/icons?i=py,java,js,ts,go,rust,react,vue,angular,nodejs,docker,kubernetes,aws,gcp,azure,tensorflow,pytorch,graphql)
+</div>
 
-<!-- MORE STATS -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hiroshi0Nohara&show_icons=true&count_private=true&hide_border=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hiroshi0Nohara&layout=compact&hide_border=true&theme=radical" alt="Top Languages" />
-</p>
-
-<!-- TROPHIES -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Hiroshi0Nohara&theme=onestar&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</p>
-
+<!-- FOOTER -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling" width="100%">
+</div>
