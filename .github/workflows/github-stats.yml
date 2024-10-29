@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: jstrieb/github-stats@master
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           GENERATE_SVG: true
           THEME: dark
