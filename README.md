@@ -1331,9 +1331,3 @@ quantumLoop();
     ]]></script>
   </g>
 </svg>
-
-<!-- Future planned enhancements include:
-1. Ultimate consciousness interface
-2. Reality-transcending animations
-3. Hyperquantum state generators
--->
