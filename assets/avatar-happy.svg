@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000535">
+        <animate attributeName="stop-color" values="#000535;#002271;#0037aa;#002271;#000535" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00288b">
+        <animate attributeName="stop-color" values="#00288b;#0047cc;#00288b;#001851;#00288b" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#0084ff" stop-opacity="0.3">
+        <animate attributeName="stop-opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0084ff" stop-opacity="0">
+        <animate attributeName="stop-opacity" values="0;0.2;0" dur="3s" repeatCount="indefinite" />
+      </stop>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="blur" in2="SourceGraphic" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="75" cy="75" r="75" fill="url(#bgGradient)" />
+  
+  <!-- Glow Effect -->
+  <circle cx="75" cy="75" r="70" fill="url(#glowGradient)" />
+  
+  <!-- Grid Pattern -->
+  <path d="M0 15 H150 M0 30 H150 M0 45 H150 M0 60 H150 M0 75 H150 M0 90 H150 M0 105 H150 M0 120 H150 M0 135 H150 M15 0 V150 M30 0 V150 M45 0 V150 M60 0 V150 M75 0 V150 M90 0 V150 M105 0 V150 M120 0 V150 M135 0 V150" 
+        stroke="rgba(0, 84, 255, 0.2)" stroke-width="0.5" />
+  
+  <!-- Face -->
+  <!-- Eyes - Happy (curved upward) -->
+  <path d="M47 60 Q55 52 63 60" stroke="#00c6ff" stroke-width="3" fill="none" />
+  <path d="M87 60 Q95 52 103 60" stroke="#00c6ff" stroke-width="3" fill="none" />
+  
+  <!-- Mouth - Happy (smile) -->
+  <path d="M60 95 Q75 110 90 95" stroke="#00c6ff" stroke-width="3" fill="none" />
+  
+  <!-- Orbiting Points - More energetic for happy -->
+  <g>
+    <circle r="2.5" fill="white">
+      <animateTransform attributeName="transform" type="rotate" from="0 75 75" to="360 75 75" dur="6s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" additive="sum" type="translate" from="0 0" to="55 0" dur="6s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle r="2" fill="#00ffff">
+      <animateTransform attributeName="transform" type="rotate" from="90 75 75" to="450 75 75" dur="9s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" additive="sum" type="translate" from="0 0" to="65 0" dur="9s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle r="3" fill="#00ff84">
+      <animateTransform attributeName="transform" type="rotate" from="180 75 75" to="-180 75 75" dur="7s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" additive="sum" type="translate" from="0 0" to="45 0" dur="7s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Additional particle for happy -->
+    <circle r="2" fill="#ffcc00">
+      <animateTransform attributeName="transform" type="rotate" from="270 75 75" to="630 75 75" dur="5s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" additive="sum" type="translate" from="0 0" to="58 0" dur="5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <!-- Central Glow - Brighter for happy -->
+  <circle cx="75" cy="75" r="15" fill="#00a2ff" opacity="0.4" filter="url(#glow)">
+    <animate attributeName="r" values="15;20;15" dur="1.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Badge -->
+  <text x="75" y="120" font-family="'Arial', sans-serif" font-size="8" fill="white" text-anchor="middle">HAPPY</text>
+</svg>
