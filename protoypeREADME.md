@@ -1,0 +1,36 @@
+<!-- 
+  ╔═══════════════════════════════════════════════════════════════════════════╗
+  ║ HIROSHI NOHARA - DIGITAL EXISTENCE FRAMEWORK                              ║
+  ║ Version: 7.3.2                                                            ║
+  ║ Last Calibration: <span id="last-updated"></span>                         ║
+  ╚═══════════════════════════════════════════════════════════════════════════╝
+-->
+
+<div align="center">
+  <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPCEtLSBEeW5hbWljIEJhY2tncm91bmQgLS0+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwNTM1Ij4KICAgICAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdG9wLWNvbG9yIiB2YWx1ZXM9IiMwMDA1MzU7IzAwMjI3MTsjMDAzN2FhOyMwMDIyNzE7IzAwMDUzNSIgZHVyPSIxMHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPgogICAgICA8L3N0b3A+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMjg4YiI+CiAgICAgICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ic3RvcC1jb2xvciIgdmFsdWVzPSIjMDAyODhiOyMwMDQ3Y2M7IzAwMjg4YjsjMDAxODUxOyMwMDI4OGIiIGR1cj0iOHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPgogICAgICA8L3N0b3A+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJwdWxzZUdyYWRpZW50IiBjeD0iNTAlIiBjeT0iNTAlIiByPSI1MCUiIGZ4PSI1MCUiIGZ5PSI1MCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDA4NGZmIiBzdG9wLW9wYWNpdHk9IjAuMyI+CiAgICAgICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ic3RvcC1vcGFjaXR5IiB2YWx1ZXM9IjAuMzswLjc7MC4zIiBkdXI9IjNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4KICAgICAgPC9zdG9wPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDg0ZmYiIHN0b3Atb3BhY2l0eT0iMCI+CiAgICAgICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ic3RvcC1vcGFjaXR5IiB2YWx1ZXM9IjA7MC4yOzAiIGR1cj0iM3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPgogICAgICA8L3N0b3A+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPGZpbHRlciBpZD0iZ2xvdyIgeD0iLTMwJSIgeT0iLTMwJSIgd2lkdGg9IjE2MCUiIGhlaWdodD0iMTYwJSI+CiAgICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEwIiByZXN1bHQ9ImJsdXIiIC8+CiAgICAgIDxmZUNvbXBvc2l0ZSBpbj0iYmx1ciIgaW4yPSJTb3VyY2VHcmFwaGljIiBvcGVyYXRvcj0ib3ZlciIgLz4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KCiAgPCEtLSBCYWNrZ3JvdW5kIC0tPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjYmdHcmFkaWVudCkiIC8+CgogIDwhLS0gUHVsc2luZyBCYWNrZ3JvdW5kIENpcmNsZSAtLT4KICA8Y2lyY2xlIGN4PSIxNTAiIGN5PSIxNTAiIHI9IjE0MCIgZmlsbD0idXJsKCNwdWxzZUdyYWRpZW50KSI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJyIiB2YWx1ZXM9IjE0MDsxNTU7MTQwIiBkdXI9IjRzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4KICA8L2NpcmNsZT4KCiAgPCEtLSBHcmlkIFBhdHRlcm4gLS0+CiAgPHBhdGggZD0iTTAgMjAgSDMwMCBNMCA2MCBIMM4MCBNMCAxMDAgSDMwMCBNMCAxNDAgSDMwMCBNMCAxODAgSDMwMCBNMCAyMjAgSDMwMCBNMCAyNjAgSDMwMCBNMjAgMCBWMzAwIE02MCAwIFYzMDAgTTEwMCAwIFYzMDAgTTE0MCAwIFYzMDAgTTE4MCAwIFYzMDAgTTIyMCAwIFYzMDAgTTI2MCAwIFYzMDAiIHN0cm9rZT0icmdiYSgwLCA4NCwgMjU1LCAwLjIpIiBzdHJva2Utd2lkdGg9IjAuNSI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utb3BhY2l0eSIgdmFsdWVzPSIwLjE7MC40OzAuMSIgZHVyPSI4cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+CiAgPC9wYXRoPgoKICA8IS0tIEdsb3dpbmcgQ2VudGVyIENpcmNsZSAtLT4KICA8Y2lyY2xlIGN4PSIxNTAiIGN5PSIxNTAiIHI9IjI1IiBmaWxsPSIjMDA4NGZmIiBmaWx0ZXI9InVybCgjZ2xvdykiPgogICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJzY2FsZSIgYWRkaXRpdmU9InN1bSIgZnJvbT0iMSAxIiB0bz0iMS4yIDEuMiIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+CiAgPC9jaXJjbGU+CgogIDwhLS0gT3JiaXRpbmcgUG9pbnRzIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1MCwgMTUwKSI+CiAgICA8Y2lyY2xlIHI9IjMiIGZpbGw9IndoaXRlIj4KICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGZyb209IjAgMCAwIiB0bz0iMzYwIDAgMCIgZHVyPSI4cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+CiAgICAgIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0idHJhbnNsYXRlIiBhZGRpdGl2ZT0ic3VtIiBmcm9tPSI4MCAwIiB0bz0iODAgMCIgZHVyPSI4cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+CiAgICA8L2NpcmNsZT4KCiAgICA8Y2lyY2xlIHI9IjIiIGZpbGw9IiMwMGZmZmYiPgogICAgICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgZnJvbT0iMCAwIDAiIHRvPSI0MzAgMCAwIiBkdXI9IjEycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+CiAgICAgIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0idHJhbnNsYXRlIiBhZGRpdGl2ZT0ic3VtIiBmcm9tPSIxMDAgMCIgdG89IjEwMCAwIiBkdXI9IjEycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIC8+CiAgICA8L2NpcmNsZT4KCiAgICA8Y2lyY2xlIHI9IjMuNSIgZmlsbD0iIzAwZmY4NCI+CiAgICAgIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBmcm9tPSI5MCAwIDAiIHRvPSItMjcwIDAgMCIgZHVyPSIxMHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPgogICAgICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgYWRkaXRpdmU9InN1bSIgZnJvbT0iNjAgMCIgdG89IjYwIDAiIGR1cj0iMTBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4KICAgIDwvY2lyY2xlPgogIDwvZz4KCiAgPCEtLSBIZXhhZ29uIFBhdHRlcm4gLS0+CiAgPGcgb3BhY2l0eT0iMC4zIj4KICAgIDxwYXRoIGQ9Ik0xNTAgMjcwIEwxMjAgMjQwIEw5MCAyNDAgTDYwIDIxMCBMNjAgMTgwIEw5MCAxNTAgTDEyMCAxMjAgTDE1MCA5MCBMMTGMCA2MCBMMjEwIDkwIEwyNDAgMTIwIEwyNDAgMTUwIEwyNzAgMTgwIEwyNDAgMjEwIEwyMTAgMjQwIEwxODAgMjQwIFoiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjMpIiBzdHJva2Utd2lkdGg9IjEiPgogICAgICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgZnJvbT0iMCAxNTAgMTUwIiB0bz0iMzYwIDE1MCAxNTAiIGR1cj0iNjBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4KICAgIDwvcGF0aD4KICA8L2c+CgogIDwhLS0gSGlyb3NoaSBOb2hhcmEgU2lnbmF0dXJlIExvZ28gLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUwLCAxNTApIj4KICAgIDx0ZXh0IHg9IjAiIHk9IjAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMjRweCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPkg8L3RleHQ+CiAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41Ij4KICAgICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGZyb209IjAgMCAwIiB0bz0iMzYwIDAgMCIgZHVyPSIyMHMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPgogICAgPC9jaXJjbGU+CiAgPC9nPgo8L3N2Zz4=" height="150px" alt="Hiroshi Nohara Avatar"/>
+
+  <div>
+    <a href="https://github.com/Hiroshi0Nohara?tab=repositories">
+      <img src="https://img.shields.io/badge/Projects-Repository-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Projects"/>
+    </a>
+    <a href="https://github.com/Hiroshi0Nohara?tab=stars">
+      <img src="https://img.shields.io/badge/Stars-Collection-gold?style=for-the-badge&logo=star&logoColor=white&labelColor=000000" alt="Stars"/>
+    </a>
+    <a href="https://github.com/Hiroshi0Nohara/Hiroshi0Nohara/stargazers">
+      <img src="https://img.shields.io/github/stars/Hiroshi0Nohara/Hiroshi0Nohara?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Stars"/>
+    </a>
+  </div>
+
+  <h1>
+    <span style="background: linear-gradient(90deg, #00c6ff, #0072ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">HIROSHI NOHARA</span>
+  </h1>
+
+  <p align="center">
+    <em>「 Digital Reality Architect • Code Sculptor • Engineering Virtuoso 」</em>
+  </p>
+</div>
+
+<br>
+
+<div align="center">
+<!-- Animated Terminal Interface - ASCII Art -->
