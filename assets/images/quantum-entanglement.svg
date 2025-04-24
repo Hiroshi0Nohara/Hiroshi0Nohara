@@ -1,0 +1,21 @@
+<svg width="100%" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="entanglementBeam">
+      <stop offset="0%" stop-color="#00ff87">
+        <animate attributeName="stop-color" values="#00ff87;#60efff;#ff00ff;#00ff87" dur="15s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#60efff">
+        <animate attributeName="stop-color" values="#60efff;#ff00ff;#00ff87;#60efff" dur="15s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="3" fill="url(#entanglementBeam)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M100,100 C150,50 200,150 250,100"/>
+  </circle>
+  <circle cx="300" cy="100" r="3" fill="url(#entanglementBeam)">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M300,100 C250,150 200,50 150,100"/>
+  </circle>
+  <line x1="100" y1="100" x2="300" y2="100" stroke="url(#entanglementBeam)" stroke-width="1">
+    <animate attributeName="stroke-width" values="1;2;1" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>
