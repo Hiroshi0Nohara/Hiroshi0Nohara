@@ -4,19 +4,24 @@ on:
   page_build:
   workflow_dispatch:
 
+permissions:
+  contents: write # Grants write access to repository contents
+
 jobs:
   update-visitor-count:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_TOKEN }} # Use PAT for authentication
       - name: Update Visitor Count
         run: |
           # Mock visitor count logic (replace with real counter logic or external service)
           echo '<svg width="120" height="40"><rect width="120" height="40" fill="#1a1a3a"/><text x="10" y="30" fill="#00ffcc" font-family="Roboto Mono">Visitors: 1234</text></svg>' > assets/visitor-count.svg
       - name: Commit Changes
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/visitor-count.svg
           git commit -m "Update visitor count" || echo "No changes to commit"
-          git push
+          git push origin main
