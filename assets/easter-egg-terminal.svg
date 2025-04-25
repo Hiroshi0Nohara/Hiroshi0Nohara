@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Terminal Background Gradient -->
+    <linearGradient id="terminalBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c13" />
+      <stop offset="100%" stop-color="#131722" />
+    </linearGradient>
+    
+    <!-- Text Glow Effect -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Cursor Blink Animation -->
+    <style>
+      @keyframes blink {
+        0% { opacity: 0; }
+        50% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      .cursor {
+        animation: blink 1s infinite;
+      }
+    </style>
+  </defs>
+  
+  <!-- Terminal Window -->
+  <rect width="700" height="400" fill="url(#terminalBgGradient)" rx="5" />
+  
+  <!-- Terminal Header -->
+  <rect width="700" height="30" fill="#1a1e2e" rx="5 5 0 0" />
+  
+  <!-- Terminal Controls -->
+  <circle cx="20" cy="15" r="7" fill="#ff5f57" />
+  <circle cx="40" cy="15" r="7" fill="#febc2e" />
+  <circle cx="60" cy="15" r="7" fill="#28c840" />
+  
+  <!-- Terminal Title -->
+  <text x="350" y="20" font-family="monospace" font-size="12" fill="#a0a8c0" text-anchor="middle">
+    hiroshi@developer:~/projects/secret
+  </text>
+  
+  <!-- Terminal Content -->
+  <g transform="translate(20, 50)" filter="url(#textGlow)">
+    <!-- Welcome Message -->
+    <text x="0" y="0" font-family="monospace" font-size="14" fill="#00ff41">
+      $ Welcome to the Secret Terminal - Easter Egg Found!
+    </text>
+    
+    <!-- Command History -->
+    <text x="0" y="30" font-family="monospace" font-size="14" fill="#a0a8c0">
+      $ ls -la
+    </text>
+    
+    <!-- Directory Listing -->
+    <text x="0" y="50" font-family="monospace" font-size="14" fill="#ffffff">
+      total 28
+    </text>
+    <text x="0" y="70" font-family="monospace" font-size="14" fill="#4e94ce">
+      drwxr-xr-x  5 hiroshi developer  160 Apr 24 10:42 .
+    </text>
+    <text x="0" y="90" font-family="monospace" font-size="14" fill="#4e94ce">
+      drwxr-xr-x 18 hiroshi developer  576 Apr 24 09:15 ..
+    </text>
+    <text x="0" y="110" font-family="monospace" font-size="14" fill="#73c990">
+      -rw-r--r--  1 hiroshi developer  217 Apr 24 09:18 .gitignore
+    </text>
+    <text x="0" y="130" font-family="monospace" font-size="14" fill="#e4bf7a">
+      -rw-r--r--  1 hiroshi developer 1.5K Apr 24 10:30 README.md
+    </text>
+    <text x="0" y="150" font-family="monospace" font-size="14" fill="#e06c75">
+      -rw-r--r--  1 hiroshi developer  32K Apr 24 10:35 hidden-game.js
+    </text>
+    <text x="0" y="170" font-family="monospace" font-size="14" fill="#e4bf7a">
+      -rw-r--r--  1 hiroshi developer 2.3K Apr 24 10:40 secret-message.txt
+    </text>
+    
+    <!-- Command Input -->
+    <text x="0" y="200" font-family="monospace" font-size="14" fill="#a0a8c0">
+      $ cat secret-message.txt
+    </text>
+    
+    <!-- Secret Message -->
+    <text x="0" y="220" font-family="monospace" font-size="14" fill="#00ff41">
+      You've discovered the secret terminal easter egg!
+    </text>
+    <text x="0" y="240" font-family="monospace" font-size="14" fill="#00ff41">
+      Congratulations on being curious and exploring this profile.
+    </text>
+    <text x="0" y="260" font-family="monospace" font-size="14" fill="#00ff41">
+      There are more easter eggs hidden within this README.
+    </text>
+    <text x="0" y="280" font-family="monospace" font-size="14" fill="#00ff41">
+      To discover them all, you'll need to look:
+    </text>
+    <text x="0" y="300" font-family="monospace" font-size="14" fill="#00ff41">
+      - In the source code comments
+    </text>
+    <text x="0" y="320" font-family="monospace" font-size="14" fill="#00ff41">
+      - For special key combinations
+    </text>
+    <text x="0" y="340" font-family="monospace" font-size="14" fill="#00ff41">
+      - In hidden links and hover states
+    </text>
+    
+    <!-- Current Command Line -->
+    <text x="0" y="370" font-family="monospace" font-size="14" fill="#a0a8c0">
+      $ _
+    </text>
+    <rect x="20" y="361" width="10" height="14" fill="#a0a8c0" class="cursor" />
+  </g>
+</svg>

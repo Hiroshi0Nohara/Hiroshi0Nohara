@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Quantum Particle Glow Effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Phase Transition Gradient -->
+    <linearGradient id="phaseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F706B4" />
+      <stop offset="33%" stop-color="#8A2BE2" />
+      <stop offset="66%" stop-color="#4B0082" />
+      <stop offset="100%" stop-color="#00EEFF" />
+    </linearGradient>
+
+    <!-- Connection Line Gradient -->
+    <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F706B4" />
+      <stop offset="100%" stop-color="#00EEFF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="150" fill="#0D1117" />
+
+  <!-- Timeline Path -->
+  <path d="M100,75 L700,75" stroke="url(#connectionGradient)" stroke-width="2" fill="none" stroke-dasharray="5,3" />
+
+  <!-- Phase I: Genesis -->
+  <g transform="translate(100,75)">
+    <circle r="20" fill="#0D1117" stroke="url(#phaseGradient)" stroke-width="2" filter="url(#glow)" />
+    <circle r="5" fill="#F706B4" filter="url(#glow)">
+      <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text x="0" y="40" font-family="'Arial', sans-serif" font-size="12" text-anchor="middle" fill="#F706B4" filter="url(#glow)">GENESIS</text>
+  </g>
+
+  <!-- Phase II: Expansion -->
+  <g transform="translate(300,75)">
+    <circle r="20" fill="#0D1117" stroke="url(#phaseGradient)" stroke-width="2" filter="url(#glow)" />
+    <circle r="5" fill="#8A2BE2" filter="url(#glow)">
+      <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text x="0" y="40" font-family="'Arial', sans-serif" font-size="12" text-anchor="middle" fill="#8A2BE2" filter="url(#glow)">EXPANSION</text>
+  </g>
+
+  <!-- Phase III: Synthesis -->
+  <g transform="translate(500,75)">
+    <circle r="20" fill="#0D1117" stroke="url(#phaseGradient)" stroke-width="2" filter="url(#glow)" />
+    <circle r="5" fill="#4B0082" filter="url(#glow)">
+      <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text x="0" y="40" font-family="'Arial', sans-serif" font-size="12" text-anchor="middle" fill="#4B0082" filter="url(#glow)">SYNTHESIS</text>
+  </g>
+
+  <!-- Phase IV: Transcendence -->
+  <g transform="translate(700,75)">
+    <circle r="20" fill="#0D1117" stroke="url(#phaseGradient)" stroke-width="2" filter="url(#glow)" />
+    <circle r="5" fill="#00EEFF" filter="url(#glow)">
+      <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text x="0" y="40" font-family="'Arial', sans-serif" font-size="12" text-anchor="middle" fill="#00EEFF" filter="url(#glow)">TRANSCENDENCE</text>
+  </g>
+
+  <!-- Energy Particles Between Phases -->
+  <!-- Genesis to Expansion -->
+  <g filter="url(#glow)">
+    <circle cx="150" cy="75" r="2" fill="#F706B4">
+      <animate attributeName="cx" values="100;300;100" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="75" r="2" fill="#AA2BE2">
+      <animate attributeName="cx" values="300;100;300" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="12s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Expansion to Synthesis -->
+  <g filter="url(#glow)">
+    <circle cx="350" cy="75" r="2" fill="#8A2BE2">
+      <animate attributeName="cx" values="300;500;300" dur="11s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="11s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="400" cy="75" r="2" fill="#6A0DAD">
+      <animate attributeName="cx" values="500;300;500" dur="13s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="13s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Synthesis to Transcendence -->
+  <g filter="url(#glow)">
+    <circle cx="550" cy="75" r="2" fill="#4B0082">
+      <animate attributeName="cx" values="500;700;500" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="75" r="2" fill="#00BFFF">
+      <animate attributeName="cx" values="700;500;700" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="14s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="30" font-family="'Arial', sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white" filter="url(#glow)">
+    QUANTUM VISUAL EVOLUTION TIMELINE
+  </text>
+</svg>

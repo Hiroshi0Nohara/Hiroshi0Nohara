@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Enhanced Gradient for Hover State -->
+    <linearGradient id="buttonHoverGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6a3de0" />
+      <stop offset="100%" stop-color="#a264ff" />
+    </linearGradient>
+    
+    <!-- Enhanced Glow Effect for Hover -->
+    <filter id="buttonHoverGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Button Background (Slightly Larger to Show Animation) -->
+  <rect x="2" y="2" width="196" height="56" rx="28" fill="url(#buttonHoverGradient)" filter="url(#buttonHoverGlow)" />
+  
+  <!-- Button Text (Slightly Larger) -->
+  <text x="100" y="36" font-family="Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" fill="white">
+    VIEW PROJECTS
+  </text>
+  
+  <!-- Arrow Icon (Added on Hover) -->
+  <path d="M140,30 L150,30 L145,25 M150,30 L145,35" stroke="white" stroke-width="2" fill="none" />
+  
+  <!-- Button Border with Glow -->
+  <rect x="2" y="2" width="196" height="56" rx="28" fill="none" stroke="#b990ff" stroke-width="2" />
+  
+  <!-- Subtle Particles for Animation Effect -->
+  <circle cx="30" cy="20" r="1" fill="white" opacity="0.6" />
+  <circle cx="40" cy="40" r="1.2" fill="white" opacity="0.7" />
+  <circle cx="160" cy="15" r="1" fill="white" opacity="0.6" />
+  <circle cx="170" cy="45" r="1.2" fill="white" opacity="0.7" />
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hover Parallax Effect by layering the background images - Position 2 -->
+  
+  <!-- Import the parallax layers with different offsets -->
+  <image href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/parallax-layer-1.svg" width="800" height="400" x="-5" y="0" />
+  <image href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/parallax-layer-2.svg" width="800" height="400" x="-15" y="-5" />
+  <image href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/parallax-layer-3.svg" width="800" height="400" x="-30" y="-10" />
+  <image href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/parallax-layer-text.svg" width="800" height="400" x="-5" y="-15" />
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- This layer has transparency to see through to layer 1 -->
+  
+  <!-- Mid Ground Elements (Layer 2) -->
+  <g>
+    <!-- Mid Mountains -->
+    <path d="M0,320 L120,280 L200,310 L280,260 L380,300 L480,250 L580,270 L680,240 L780,290 L800,270 L800,400 L0,400 Z" fill="#293245" />
+    
+    <!-- Mid Ground Structures -->
+    <polygon points="350,280 370,220 390,280" fill="#344875" />
+    <polygon points="500,260 520,200 540,260" fill="#344875" />
+    <polygon points="620,250 640,190 660,250" fill="#344875" />
+    
+    <!-- Floating Islands -->
+    <path d="M150,200 C130,190 120,210 100,200 C80,190 70,180 80,170 C90,160 120,160 140,170 C160,180 170,160 150,200 Z" fill="#2d364f" />
+    <path d="M550,180 C530,170 520,190 500,180 C480,170 470,160 480,150 C490,140 520,140 540,150 C560,160 570,140 550,180 Z" fill="#2d364f" />
+    
+    <!-- Mid Ground Clouds -->
+    <ellipse cx="250" cy="170" rx="60" ry="15" fill="#1d253c" opacity="0.6" />
+    <ellipse cx="450" cy="150" rx="40" ry="10" fill="#1d253c" opacity="0.6" />
+    <ellipse cx="650" cy="180" rx="70" ry="18" fill="#1d253c" opacity="0.6" />
+  </g>
+</svg>

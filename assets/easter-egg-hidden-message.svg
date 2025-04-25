@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="150" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient Background -->
+    <linearGradient id="secretBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#131722" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    
+    <!-- Hidden Message Glow -->
+    <filter id="secretGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Decorative Elements Glow -->
+    <filter id="elementsGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="150" fill="url(#secretBgGradient)" rx="10" />
+  
+  <!-- Hidden Message (Initially very low opacity) -->
+  <g opacity="0.05">
+    <text x="300" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle" filter="url(#secretGlow)">
+      You found the hidden message!
+    </text>
+    
+    <text x="300" y="80" font-family="Arial, sans-serif" font-size="14" fill="#a0a8c0" text-anchor="middle">
+      Curiosity is the essence of human existence. 
+    </text>
+    
+    <text x="300" y="105" font-family="Arial, sans-serif" font-size="14" fill="#a0a8c0" text-anchor="middle">
+      My repositories have more hidden gems for those who look deeper.
+    </text>
+  </g>
+  
+  <!-- Hover Hint Text (normal opacity) -->
+  <text x="300" y="135" font-family="Arial, sans-serif" font-size="12" fill="#606880" text-anchor="middle">
+    Selecting this text reveals a secret...
+  </text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="40" r="3" fill="#7957d5" opacity="0.3" filter="url(#elementsGlow)" />
+  <circle cx="500" cy="40" r="3" fill="#7957d5" opacity="0.3" filter="url(#elementsGlow)" />
+  <circle cx="100" cy="110" r="3" fill="#7957d5" opacity="0.3" filter="url(#elementsGlow)" />
+  <circle cx="500" cy="110" r="3" fill="#7957d5" opacity="0.3" filter="url(#elementsGlow)" />
+  
+  <!-- Subtle Connecting Lines -->
+  <line x1="105" y1="40" x2="495" y2="40" stroke="#7957d5" stroke-width="1" opacity="0.1" />
+  <line x1="105" y1="110" x2="495" y2="110" stroke="#7957d5" stroke-width="1" opacity="0.1" />
+</svg>

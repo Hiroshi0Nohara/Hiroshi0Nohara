@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Game Background Gradient -->
+    <linearGradient id="gameBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c13" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    
+    <!-- Game Element Glow -->
+    <filter id="gameGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Pixel Character Gradient -->
+    <linearGradient id="characterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7957d5" />
+      <stop offset="100%" stop-color="#6a3de0" />
+    </linearGradient>
+    
+    <!-- Obstacle Gradient -->
+    <linearGradient id="obstacleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5555" />
+      <stop offset="100%" stop-color="#ff0066" />
+    </linearGradient>
+    
+    <!-- Coin Gradient -->
+    <linearGradient id="coinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc00" />
+      <stop offset="100%" stop-color="#f7df1e" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Game Area Background -->
+  <rect width="500" height="300" fill="url(#gameBgGradient)" rx="10" />
+  
+  <!-- Game Title -->
+  <text x="250" y="30" font-family="'Press Start 2P', monospace, Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" filter="url(#gameGlow)">
+    PIXEL ADVENTURE
+  </text>
+  
+  <!-- Game Subtitle -->
+  <text x="250" y="50" font-family="Arial, sans-serif" font-size="10" fill="#a0a8c0" text-anchor="middle">
+    A mini-game hidden in your GitHub profile!
+  </text>
+  
+  <!-- Score Display -->
+  <text x="50" y="80" font-family="'Press Start 2P', monospace, Arial" font-size="12" fill="#ffffff">
+    SCORE: 0
+  </text>
+  
+  <!-- Game Area Border -->
+  <rect x="50" y="100" width="400" height="150" fill="none" stroke="#2a2f45" stroke-width="2" rx="5" />
+  
+  <!-- Game Ground -->
+  <rect x="50" y="230" width="400" height="20" fill="#2a2f45" />
+  
+  <!-- Pixel Character (Player) -->
+  <g transform="translate(80, 210)" filter="url(#gameGlow)">
+    <!-- Body -->
+    <rect width="20" height="20" fill="url(#characterGradient)" rx="2" />
+    
+    <!-- Eyes -->
+    <rect x="5" y="5" width="3" height="3" fill="white" />
+    <rect x="12" y="5" width="3" height="3" fill="white" />
+  </g>
+  
+  <!-- Obstacles -->
+  <g filter="url(#gameGlow)">
+    <!-- Obstacle 1 -->
+    <rect x="200" y="220" width="15" height="10" fill="url(#obstacleGradient)" rx="1" />
+    
+    <!-- Obstacle 2 -->
+    <rect x="300" y="210" width="25" height="20" fill="url(#obstacleGradient)" rx="1" />
+    
+    <!-- Obstacle 3 -->
+    <rect x="400" y="215" width="20" height="15" fill="url(#obstacleGradient)" rx="1" />
+  </g>
+  
+  <!-- Collectible Coins -->
+  <g filter="url(#gameGlow)">
+    <!-- Coin 1 -->
+    <circle cx="150" cy="200" r="7" fill="url(#coinGradient)" />
+    
+    <!-- Coin 2 -->
+    <circle cx="250" cy="180" r="7" fill="url(#coinGradient)" />
+    
+    <!-- Coin 3 -->
+    <circle cx="350" cy="190" r="7" fill="url(#coinGradient)" />
+  </g>
+  
+  <!-- Clouds (Background Elements) -->
+  <g opacity="0.5">
+    <rect x="80" y="130" width="40" height="15" fill="#2a2f45" rx="7" />
+    <rect x="280" y="120" width="60" height="20" fill="#2a2f45" rx="10" />
+    <rect x="380" y="150" width="30" height="10" fill="#2a2f45" rx="5" />
+  </g>
+  
+  <!-- Game Instructions -->
+  <text x="250" y="270" font-family="Arial, sans-serif" font-size="10" fill="#a0a8c0" text-anchor="middle">
+    Fork this repository and check the source code to play the full game!
+  </text>
+  
+  <!-- Secret Message -->
+  <text x="250" y="290" font-family="Arial, sans-serif" font-size="8" fill="#606880" text-anchor="middle">
+    This is one of several easter eggs hidden throughout my profile...
+  </text>
+</svg>

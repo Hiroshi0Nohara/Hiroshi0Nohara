@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Enhanced Social Button Gradient for Hover -->
+    <linearGradient id="socialHoverBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#252a40" />
+      <stop offset="100%" stop-color="#1a1e2e" />
+    </linearGradient>
+    
+    <!-- Enhanced Icon Glow Effect for Hover -->
+    <filter id="socialIconHoverGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Animated Icon Gradient -->
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#c0c8ea" />
+    </linearGradient>
+    
+    <!-- Halo Effect -->
+    <radialGradient id="haloRadial" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="70%" stop-color="#6a3de0" stop-opacity="0" />
+      <stop offset="100%" stop-color="#6a3de0" stop-opacity="0.4" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background Halo Effect -->
+  <circle cx="30" cy="30" r="28" fill="url(#haloRadial)" />
+  
+  <!-- Social Icon Background Circle (Slightly Larger) -->
+  <circle cx="30" cy="30" r="26" fill="url(#socialHoverBgGradient)" />
+  
+  <!-- Pulsing Animated Border -->
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#6a3de0" stroke-width="2" />
+  
+  <!-- GitHub Logo (Enhanced) -->
+  <g transform="translate(14, 14)" filter="url(#socialIconHoverGlow)">
+    <path d="M16,0 C7.16,0 0,7.16 0,16 C0,23.08 4.58,29.06 10.94,31.18 C11.74,31.32 12.04,30.85 12.04,30.45 C12.04,30.08 12.01,29.04 12.01,27.69 C8,28.5 6.96,26.75 6.64,25.8 C6.46,25.31 5.68,23.87 5,23.52 C4.44,23.24 3.64,22.43 4.98,22.42 C6.24,22.41 7.14,23.6 7.44,24.1 C8.88,26.56 11.18,25.86 12.08,25.46 C12.23,24.39 12.66,23.69 13.12,23.29 C9.56,22.9 5.84,21.5 5.84,15.31 C5.84,13.56 6.46,12.12 7.48,10.98 C7.3,10.56 6.74,8.91 7.62,6.68 C7.62,6.68 8.94,6.28 12.04,8.36 C13.31,8 14.66,7.81 16,7.81 C17.34,7.81 18.69,8 19.96,8.36 C23.06,6.28 24.38,6.68 24.38,6.68 C25.26,8.91 24.7,10.56 24.52,10.98 C25.54,12.12 26.16,13.56 26.16,15.31 C26.16,21.52 22.42,22.9 18.86,23.29 C19.46,23.79 19.96,24.75 19.96,26.21 C19.96,28.23 19.93,29.97 19.93,30.47 C19.93,30.87 20.23,31.35 21.03,31.2 C27.39,29.08 31.97,23.08 31.97,16 C32,7.16 24.84,0 16,0 Z" fill="url(#iconGradient)" />
+  </g>
+  
+  <!-- Subtle Animated Particles -->
+  <circle cx="22" cy="22" r="1" fill="white" opacity="0.7" />
+  <circle cx="38" cy="22" r="1" fill="white" opacity="0.7" />
+  <circle cx="22" cy="38" r="1" fill="white" opacity="0.7" />
+  <circle cx="38" cy="38" r="1" fill="white" opacity="0.7" />
+</svg>

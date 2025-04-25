@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="90" viewBox="0 0 800 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff">
+        <animate attributeName="stop-color" values="#00c6ff;#00ffcc;#00c6ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#00ffcc">
+        <animate attributeName="stop-color" values="#00ffcc;#00ffff;#00ffcc" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#00c6ff;#00ffff" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="blur" in2="SourceGraphic" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Subtle background grid -->
+  <path d="M0 30 H800 M0 60 H800" stroke="rgba(0, 198, 255, 0.1)" stroke-width="0.5" stroke-dasharray="5,5" />
+  <path d="M200 0 V90 M400 0 V90 M600 0 V90" stroke="rgba(0, 198, 255, 0.1)" stroke-width="0.5" stroke-dasharray="5,5" />
+  
+  <!-- Wave path -->
+  <path d="" stroke="url(#waveGradient)" stroke-width="2" fill="none" filter="url(#glow)">
+    <animate attributeName="d" 
+             values="M0,45 C100,30 150,60 200,45 S300,20 400,45 S500,70 600,45 S700,20 800,45;
+                     M0,45 C100,60 150,30 200,45 S300,70 400,45 S500,20 600,45 S700,70 800,45;
+                     M0,45 C100,30 150,60 200,45 S300,20 400,45 S500,70 600,45 S700,20 800,45" 
+             dur="12s" 
+             repeatCount="indefinite" />
+  </path>
+  
+  <!-- Secondary waves -->
+  <path d="" stroke="url(#waveGradient)" stroke-width="1" fill="none" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="d" 
+             values="M0,45 C150,25 250,65 400,45 S650,25 800,45;
+                     M0,45 C150,65 250,25 400,45 S650,65 800,45;
+                     M0,45 C150,25 250,65 400,45 S650,25 800,45" 
+             dur="15s" 
+             repeatCount="indefinite" />
+  </path>
+  
+  <path d="" stroke="url(#waveGradient)" stroke-width="1" fill="none" opacity="0.5" filter="url(#glow)">
+    <animate attributeName="d" 
+             values="M0,45 C200,30 400,60 600,45 S800,30 800,45;
+                     M0,45 C200,60 400,30 600,45 S800,60 800,45;
+                     M0,45 C200,30 400,60 600,45 S800,30 800,45" 
+             dur="18s" 
+             repeatCount="indefinite" />
+  </path>
+  
+  <!-- Quantum particles along the wave -->
+  <g>
+    <!-- Particle 1 -->
+    <circle r="2" fill="#ffffff" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite" />
+      <animateMotion 
+                    path="M0,45 C100,30 150,60 200,45 S300,20 400,45 S500,70 600,45 S700,20 800,45" 
+                    dur="20s" 
+                    repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Particle 2 -->
+    <circle r="1.8" fill="#00ffff" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite" />
+      <animateMotion 
+                    path="M0,45 C100,30 150,60 200,45 S300,20 400,45 S500,70 600,45 S700,20 800,45" 
+                    dur="25s" 
+                    repeatCount="indefinite"
+                    begin="5s" />
+    </circle>
+    
+    <!-- Particle 3 -->
+    <circle r="1.5" fill="#00c6ff" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;0.9;0" dur="6s" repeatCount="indefinite" />
+      <animateMotion 
+                    path="M0,45 C100,30 150,60 200,45 S300,20 400,45 S500,70 600,45 S700,20 800,45" 
+                    dur="18s" 
+                    repeatCount="indefinite"
+                    begin="3s" />
+    </circle>
+    
+    <!-- Particle 4 -->
+    <circle r="2.2" fill="#00ffcc" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite" />
+      <animateMotion 
+                    path="M0,45 C100,30 150,60 200,45 S300,20 400,45 S500,70 600,45 S700,20 800,45" 
+                    dur="22s" 
+                    repeatCount="indefinite"
+                    begin="7s" />
+    </circle>
+  </g>
+  
+  <!-- Vertical energy beams -->
+  <line x1="200" y1="0" x2="200" y2="90" stroke="url(#waveGradient)" stroke-width="0.3" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="10s" repeatCount="indefinite" begin="2s" />
+  </line>
+  
+  <line x1="400" y1="0" x2="400" y2="90" stroke="url(#waveGradient)" stroke-width="0.3" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="10s" repeatCount="indefinite" begin="7s" />
+  </line>
+  
+  <line x1="600" y1="0" x2="600" y2="90" stroke="url(#waveGradient)" stroke-width="0.3" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0" dur="10s" repeatCount="indefinite" begin="12s" />
+  </line>
+  
+  <!-- Center point pulse -->
+  <circle cx="400" cy="45" r="0" fill="none" stroke="url(#waveGradient)" stroke-width="0.5">
+    <animate attributeName="r" values="0;50;0" dur="15s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="15s" repeatCount="indefinite" />
+  </circle>
+</svg>

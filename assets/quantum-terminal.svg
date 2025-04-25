@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="terminalBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff">
+        <animate attributeName="stop-color" values="#00c6ff;#00ffcc;#00ffff;#00ffcc;#00c6ff" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#00ffcc">
+        <animate attributeName="stop-color" values="#00ffcc;#00ffff;#00c6ff;#00ffff;#00ffcc" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#00c6ff;#00ffcc;#00c6ff;#00ffff" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="blur" in2="SourceGraphic" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect x="10" y="10" width="580" height="280" rx="5" ry="5" fill="#0d101e" stroke="url(#terminalBorder)" stroke-width="2" filter="url(#glow)" />
+  
+  <!-- Terminal header bar -->
+  <rect x="10" y="10" width="580" height="25" rx="5" ry="5" fill="#151a30" stroke="url(#terminalBorder)" stroke-width="1" />
+  
+  <!-- Terminal buttons -->
+  <circle cx="25" cy="22" r="6" fill="#ff5f57" />
+  <circle cx="45" cy="22" r="6" fill="#febc2e" />
+  <circle cx="65" cy="22" r="6" fill="#28c840" />
+  
+  <!-- Terminal title -->
+  <text x="300" y="27" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle">QUANTUM ACCESS TERMINAL</text>
+  
+  <!-- Terminal content -->
+  <g font-family="monospace" font-size="14" fill="#00ffff">
+    <!-- System boot messages with blinking effect -->
+    <text x="25" y="60">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Initializing quantum terminal...</tspan>
+      <animate attributeName="opacity" values="1;1;1;0;1;1" dur="5s" repeatCount="1" />
+    </text>
+    <text x="25" y="85">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Establishing secure connection...</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;1;0;1;1" dur="6s" repeatCount="1" />
+    </text>
+    <text x="25" y="110">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Validating quantum signature...</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;1;0;1;1" dur="7s" repeatCount="1" />
+    </text>
+    <text x="25" y="135">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Decoding interdimensional protocols...</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;1;0;1;1" dur="8s" repeatCount="1" />
+    </text>
+    <text x="25" y="160">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Scanning for quantum key fragments...</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;1;0;1;1" dur="9s" repeatCount="1" />
+    </text>
+    
+    <!-- Command prompt and waiting cursor -->
+    <text x="25" y="200">
+      <tspan fill="#00ffcc">[QUANTUM@GITHUB]$</tspan>
+      <tspan fill="#ffffff"> ./access --secret-lab</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1" dur="10s" repeatCount="1" />
+    </text>
+    <text x="25" y="225">
+      <tspan fill="#ff5555">ACCESS DENIED: Quantum key fragments missing (0/3)</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;1" dur="11s" repeatCount="1" />
+    </text>
+    <text x="25" y="250">
+      <tspan fill="#00ffcc">[QUANTUM@GITHUB]$</tspan>
+      <tspan id="cursor" fill="#ffffff">▋</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;1" dur="12s" repeatCount="1" />
+    </text>
+  </g>
+  
+  <!-- Blinking cursor animation -->
+  <text x="163" y="250" font-family="monospace" font-size="14" fill="#ffffff">▋
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" begin="12s" />
+  </text>
+  
+  <!-- Secret message (only visible with the right key) -->
+  <text x="300" y="280" font-family="monospace" font-size="10" fill="#00c6ff" text-anchor="middle" opacity="0.5">
+    Find all three quantum key fragments to unlock the dimensional gateway
+  </text>
+</svg>

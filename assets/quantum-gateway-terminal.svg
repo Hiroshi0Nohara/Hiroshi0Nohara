@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="terminalBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff">
+        <animate attributeName="stop-color" values="#00c6ff;#00ffcc;#00ffff;#00ffcc;#00c6ff" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#00ffcc">
+        <animate attributeName="stop-color" values="#00ffcc;#00ffff;#00c6ff;#00ffff;#00ffcc" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#00c6ff;#00ffcc;#00c6ff;#00ffff" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="blur" in2="SourceGraphic" operator="over" />
+    </filter>
+    
+    <!-- Starburst filter -->
+    <filter id="starburst" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="glow" />
+      <feComposite in="SourceGraphic" in2="glow" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect x="10" y="10" width="580" height="280" rx="5" ry="5" fill="#0d101e" stroke="url(#terminalBorder)" stroke-width="2" filter="url(#glow)" />
+  
+  <!-- Terminal header bar -->
+  <rect x="10" y="10" width="580" height="25" rx="5" ry="5" fill="#151a30" stroke="url(#terminalBorder)" stroke-width="1" />
+  
+  <!-- Terminal buttons -->
+  <circle cx="25" cy="22" r="6" fill="#ff5f57" />
+  <circle cx="45" cy="22" r="6" fill="#febc2e" />
+  <circle cx="65" cy="22" r="6" fill="#28c840" />
+  
+  <!-- Terminal title -->
+  <text x="300" y="27" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle">DIMENSIONAL GATEWAY ACCESS</text>
+  
+  <!-- Terminal content -->
+  <g font-family="monospace" font-size="14" fill="#00ffff">
+    <!-- System boot messages with animation -->
+    <text x="25" y="60">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Initializing quantum terminal...</tspan>
+      <animate attributeName="opacity" values="1;1;1;0;1;1" dur="2s" repeatCount="1" />
+    </text>
+    <text x="25" y="85">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Establishing secure connection...</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;1;0;1;1" dur="3s" repeatCount="1" />
+    </text>
+    <text x="25" y="110">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Validating quantum signature...</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;1;0;1;1" dur="4s" repeatCount="1" />
+    </text>
+    <text x="25" y="135">
+      <tspan>[SYSTEM]</tspan>
+      <tspan fill="#ffffff"> Processing key fragments...</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;1;0;1;1" dur="5s" repeatCount="1" />
+    </text>
+    
+    <!-- Key loading animation -->
+    <text x="25" y="160">
+      <tspan fill="#00ffcc">[KEY]</tspan>
+      <tspan fill="#ffffff"> Fragment 1 verified: </tspan>
+      <tspan fill="#00ffff">01001110</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1" dur="6s" repeatCount="1" />
+    </text>
+    <text x="25" y="185">
+      <tspan fill="#00ffcc">[KEY]</tspan>
+      <tspan fill="#ffffff"> Fragment 2 verified: </tspan>
+      <tspan fill="#00ffff">01110101</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1;1" dur="7s" repeatCount="1" />
+    </text>
+    <text x="25" y="210">
+      <tspan fill="#00ffcc">[KEY]</tspan>
+      <tspan fill="#ffffff"> Fragment 3 verified: </tspan>
+      <tspan fill="#00ffff">01110011</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;1;1" dur="8s" repeatCount="1" />
+    </text>
+    
+    <!-- Success message -->
+    <text x="25" y="240">
+      <tspan fill="#00ffcc">[SYSTEM]</tspan>
+      <tspan fill="#00ff99"> DIMENSIONAL GATEWAY ACCESS GRANTED</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" dur="9s" repeatCount="1" />
+    </text>
+    
+    <!-- Command prompt -->
+    <text x="25" y="265">
+      <tspan fill="#00ffcc">[DIMENSIONAL@GATEWAY]$</tspan>
+      <tspan fill="#ffffff"> WELCOME HIROSHI NOHARA</tspan>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" dur="10s" repeatCount="1" />
+    </text>
+  </g>
+  
+  <!-- Binary decoding animation -->
+  <text x="300" y="290" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle">
+    <tspan>BINARY TRANSLATION: </tspan>
+    <tspan fill="#00ffff">Nus</tspan>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" dur="11s" repeatCount="1" />
+  </text>
+  
+  <!-- Easter egg clue -->
+  <text x="440" y="290" font-family="monospace" font-size="14" fill="#ffffff">
+    <tspan> [FLIP FOR MIRROR CODE]</tspan>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" dur="12s" repeatCount="1" />
+  </text>
+  
+  <!-- Glowing portal effect -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" dur="10s" repeatCount="1" />
+    <circle cx="300" cy="150" r="50" fill="none" stroke="url(#terminalBorder)" stroke-width="3" filter="url(#starburst)">
+      <animate attributeName="r" values="0;50;45;50" dur="4s" begin="10s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;0.8;1" dur="4s" begin="10s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle cx="300" cy="150" r="30" fill="none" stroke="url(#terminalBorder)" stroke-width="2" filter="url(#starburst)">
+      <animate attributeName="r" values="0;30;25;30" dur="3s" begin="10s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.8;0.6;0.8" dur="3s" begin="10s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Energy beams -->
+    <line x1="300" y1="100" x2="300" y2="50" stroke="url(#terminalBorder)" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="10s" repeatCount="indefinite" />
+    </line>
+    <line x1="300" y1="200" x2="300" y2="250" stroke="url(#terminalBorder)" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="10.2s" repeatCount="indefinite" />
+    </line>
+    <line x1="250" y1="150" x2="200" y2="150" stroke="url(#terminalBorder)" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="10.4s" repeatCount="indefinite" />
+    </line>
+    <line x1="350" y1="150" x2="400" y2="150" stroke="url(#terminalBorder)" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="10.6s" repeatCount="indefinite" />
+    </line>
+    
+    <!-- Diagonal beams -->
+    <line x1="265" y1="115" x2="230" y2="80" stroke="url(#terminalBorder)" stroke-width="1.5" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="10.8s" repeatCount="indefinite" />
+    </line>
+    <line x1="335" y1="115" x2="370" y2="80" stroke="url(#terminalBorder)" stroke-width="1.5" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="11s" repeatCount="indefinite" />
+    </line>
+    <line x1="265" y1="185" x2="230" y2="220" stroke="url(#terminalBorder)" stroke-width="1.5" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="11.2s" repeatCount="indefinite" />
+    </line>
+    <line x1="335" y1="185" x2="370" y2="220" stroke="url(#terminalBorder)" stroke-width="1.5" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;1;0.5;1;0" dur="2s" begin="11.4s" repeatCount="indefinite" />
+    </line>
+  </g>
+</svg>

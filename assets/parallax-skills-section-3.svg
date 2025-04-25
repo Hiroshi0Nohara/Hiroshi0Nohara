@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hover Parallax Effect for Skills Section - Position 3 -->
+  
+  <!-- Background -->
+  <rect width="800" height="300" fill="#0d1117" />
+  
+  <!-- Background Grid -->
+  <g stroke="#1a1f2a" stroke-width="0.5">
+    <path d="M0,50 H800 M0,100 H800 M0,150 H800 M0,200 H800 M0,250 H800" />
+    <path d="M50,0 V300 M100,0 V300 M150,0 V300 M200,0 V300 M250,0 V300 M300,0 V300 M350,0 V300
+             M400,0 V300 M450,0 V300 M500,0 V300 M550,0 V300 M600,0 V300 M650,0 V300 M700,0 V300 M750,0 V300" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">TECHNICAL EXPERTISE</text>
+  
+  <!-- Skill Circles - Position 3 (shifted left) -->
+  <g>
+    <!-- JavaScript -->
+    <circle cx="155" cy="155" r="42" fill="#2a253a" stroke="#f7df1e" stroke-width="3" />
+    <text x="155" y="160" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff">JavaScript</text>
+    
+    <!-- React -->
+    <circle cx="285" cy="155" r="42" fill="#2a253a" stroke="#61dafb" stroke-width="3" />
+    <text x="285" y="160" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff">React</text>
+    
+    <!-- Three.js -->
+    <circle cx="415" cy="155" r="42" fill="#2a253a" stroke="#8a6dff" stroke-width="3" />
+    <text x="415" y="160" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff">Three.js</text>
+    
+    <!-- WebGL -->
+    <circle cx="545" cy="155" r="42" fill="#2a253a" stroke="#ff0066" stroke-width="3" />
+    <text x="545" y="160" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff">WebGL</text>
+    
+    <!-- Python -->
+    <circle cx="675" cy="155" r="42" fill="#2a253a" stroke="#3776ab" stroke-width="3" />
+    <text x="675" y="160" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#ffffff">Python</text>
+  </g>
+  
+  <!-- Decorative Lines -->
+  <path d="M0,250 Q400,235 800,250" stroke="#353c54" stroke-width="2" fill="none" />
+  <path d="M0,260 Q400,275 800,260" stroke="#353c54" stroke-width="2" fill="none" />
+</svg>

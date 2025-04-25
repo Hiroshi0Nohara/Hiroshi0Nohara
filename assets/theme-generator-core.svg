@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Grid background pattern -->
+    <pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#444444" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#444444" stroke-width="1" opacity="0.4"/>
+    </pattern>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="blur" in2="SourceGraphic" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="400" fill="#1f2024" />
+  <rect x="0" y="0" width="800" height="400" fill="url(#grid)" />
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#171717" />
+  
+  <!-- Title -->
+  <text x="50" y="38" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" filter="url(#glow)">
+    ADAPTIVE COLOR PALETTE GENERATOR
+  </text>
+  
+  <!-- Select Theme Button -->
+  <rect x="50" y="80" width="700" height="40" rx="5" fill="#2c2c2c" />
+  <text x="70" y="105" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Select Theme</text>
+  
+  <!-- Theme Buttons -->
+  <a href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/theme-generator-cyberspace.svg">
+    <rect x="200" y="80" width="120" height="40" rx="5" fill="#00c6ff" />
+    <text x="260" y="105" font-family="Arial, sans-serif" font-size="14" fill="#0d1117" text-anchor="middle">CYBERSPACE</text>
+  </a>
+  
+  <a href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/theme-generator-nature.svg">
+    <rect x="340" y="80" width="120" height="40" rx="5" fill="#2a6b3c" />
+    <text x="400" y="105" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">NATURE</text>
+  </a>
+  
+  <a href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/theme-generator-cosmic.svg">
+    <rect x="480" y="80" width="120" height="40" rx="5" fill="#bd93f9" />
+    <text x="540" y="105" font-family="Arial, sans-serif" font-size="14" fill="#13111c" text-anchor="middle">COSMIC</text>
+  </a>
+  
+  <a href="https://raw.githubusercontent.com/Hiroshi0Nohara/Hiroshi0Nohara/main/assets/theme-generator-custom.svg">
+    <rect x="620" y="80" width="120" height="40" rx="5" fill="#808080" />
+    <text x="680" y="105" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">CUSTOM</text>
+  </a>
+  
+  <!-- Instructions -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">
+    Click a theme to view its color palette
+  </text>
+  
+  <!-- Feature Description -->
+  <g>
+    <rect x="50" y="180" width="700" height="200" rx="5" fill="#2c2c2c" />
+    
+    <text x="70" y="210" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">
+      How to Use the Theme Generator:
+    </text>
+    
+    <text x="70" y="245" font-family="Arial, sans-serif" font-size="14" fill="#cccccc">
+      <tspan x="70" y="245">1. Click any theme button above to view a detailed color palette</tspan>
+      <tspan x="70" y="275">2. Copy the provided CSS variables to implement the theme in your README</tspan>
+      <tspan x="70" y="305">3. Each theme includes primary colors, accent colors, and practical usage examples</tspan>
+      <tspan x="70" y="335">4. Use the provided hexadecimal color codes in your SVGs and markdown elements</tspan>
+    </text>
+    
+    <text x="400" y="370" font-family="Arial, sans-serif" font-size="12" fill="#aaaaaa" text-anchor="middle">
+      All themes are optimized for both light and dark GitHub modes
+    </text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Color drops -->
+    <circle cx="670" cy="210" r="10" fill="#00c6ff" opacity="0.8" />
+    <circle cx="690" cy="210" r="10" fill="#2a6b3c" opacity="0.8" />
+    <circle cx="710" cy="210" r="10" fill="#bd93f9" opacity="0.8" />
+    
+    <!-- Decorative lines -->
+    <path d="M650,240 L730,240" stroke="#444444" stroke-width="1" />
+    <path d="M650,250 L730,250" stroke="#444444" stroke-width="1" />
+    <path d="M650,260 L730,260" stroke="#444444" stroke-width="1" />
+    
+    <!-- Color wheel suggestion -->
+    <circle cx="690" cy="300" r="30" fill="none" stroke="#444444" stroke-width="1" />
+    <path d="M690,300 L690,270" stroke="#ff0000" stroke-width="2" />
+    <path d="M690,300 L716,315" stroke="#00ff00" stroke-width="2" />
+    <path d="M690,300 L664,315" stroke="#0000ff" stroke-width="2" />
+  </g>
+</svg>
